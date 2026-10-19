@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almas Libre Yo Soy | Portal Principal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: transparent;">
+    <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: var(--color-white); z-index: -2;"></div>
+    <div class="bg-cascade" id="bgCascade"></div>
+
+    <header>
+        <img src="assets/img/logo.webp" alt="Almas Libre Yo Soy Logo" class="logo">
+    </header>
+
+    <section class="hero">
+        <h1>
+            <span class="title-black">Bienvenidos a</span><br>
+            <span class="title-violet">Alma Libre</span>
+        </h1>
+        <p>Un espacio diseñado para la expansión, la elegancia y el descubrimiento. Explora nuestros universos a través de los siguientes módulos.</p>
+    </section>
+
+    <main class="module-stack">
+        <!-- Módulo 1: Turismo es Vida -->
+        <div class="module-accordion">
+            <div class="module-header">
+                <img src="C:/Users/arnaldoeuropa/Desktop/turismo-es-vida-web/assets/img/og-image.webp" class="module-img" alt="Turismo es Vida">
+                <div class="header-text">
+                    <h3>Turismo es Vida</h3>
+                    <p>Descubre destinos que alimentan el alma y reconectan tu espíritu con la naturaleza.</p>
+                </div>
+                <span class="module-btn">Explorar</span>
+            </div>
+            <div class="module-content">
+                <div class="content-inner">
+                    <div class="turismo-scope">
+                        <!-- Hero de Turismo -->
+                        <section class="hero" id="inicio">
+                          <div class="hero__capa hero__capa--fondo" aria-hidden="true"></div>
+                          <div class="hero__capa hero__capa--montanas" aria-hidden="true"></div>
+                          <div class="hero__capa hero__capa--niebla" aria-hidden="true"></div>
+                          <div class="hero__capa hero__capa--hojas" aria-hidden="true"></div>
+                          <div class="hero__contenido">
+                            <img src="C:/Users/arnaldoeuropa/Desktop/turismo-es-vida-web/assets/img/logo.webp" alt="Turismo es Vida SAS" class="hero__logo">
+                            <span class="hero__eyebrow">Cali · Valle del Cauca · Colombia</span>
+                            <h1 class="hero__titulo">Detenerte también<br>es <em>avanzar</em></h1>
+                            <p class="hero__subtitulo">Retiros holísticos, turismo de bienestar y experiencias auténticas en el corazón del Pacífico colombiano. Vive tu mejor versión.</p>
+                            <div class="hero__acciones">
+                              <a href="#retiro" class="btn btn--primario">Reserva tu cupo</a>
+                              <a href="#puertas" class="btn btn--fantasma">Descubre más</a>
+                            </div>
+                          </div>
+                        </section>
+
+                        <!-- Puertas -->
+                        <section class="seccion" id="puertas">
+                          <div class="contenedor">
+                            <h2 class="centrado">¿Qué experiencia buscas hoy?</h2>
+                            <p class="subtitulo centrado">Tres caminos, una misma promesa: bienestar con propósito, naturaleza y cultura local.</p>
+                            <div class="puertas animar-puertas">
+                              <article class="puerta puerta--izq">
+                                <div class="puerta__icono" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 15h10v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-4" /><path d="M12 9a6 6 0 0 0 -6 -6h-3v2a6 6 0 0 0 6 6h3" /><path d="M12 11a6 6 0 0 1 6 -6h3v1a6 6 0 0 1 -6 6h-3" /><path d="M12 15l0 -6" /></svg></div>
+                                <h3>Retiro "Vuelve a ti"</h3>
+                                <p>Seis horas en una reserva natural: purificación, cuencos tibetanos, círculo de fuego y cierre mindfulness. Cupos limitados.</p>
+                                <a href="#retiro" class="puerta__link">Ver el retiro →</a>
+                              </article>
+                              <article class="puerta puerta--medico puerta--centro">
+                                <div class="puerta__icono" aria-hidden="true">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                    <path d="M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25" />
+                                    <path d="M12.5 15.5l2 2" />
+                                    <path d="M15 13l2 2" />
+                                  </svg>
+                                </div>
+                                <h3>Medical Companion</h3>
+                                <p>Acompañamiento de bienestar para viajeros que se someten a procedimientos médicos en Colombia. Transporte, estancia y apoyo emocional.</p>
+                                <a href="#medico" class="puerta__link">Conocer el servicio →</a>
+                              </article>
+                              <article class="puerta puerta--tours puerta--der">
+                                <div class="puerta__icono" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M12 14v-8l7 -2v8" /></svg></div>
+                                <h3>Experiencias en Cali</h3>
+                                <p>Tours de salsa, sabores y cultura, Laguna de Sonso, Bosque de Niebla y celebraciones personalizadas.</p>
+                                <a href="#experiencias" class="puerta__link">Explorar tours →</a>
+                              </article>
+                            </div>
+                          </div>
+
+                          <!-- Reel -->
+                          <section class="reel" id="experiencias">
+                            <div class="contenedor">
+                              <h2 class="centrado">Momentos que se quedan</h2>
+                              <p class="subtitulo centrado">Una muestra de lo que vivirás con nosotros</p>
+                            </div>
+                            <div class="reel__escenario">
+                              <div class="reel__carrusel" id="reelCarrusel" role="region" aria-label="Carrusel de experiencias"></div>
+                            </div>
+                            <div class="reel__controles">
+                              <button class="reel__btn" id="reelPrev" aria-label="Experiencia anterior">‹</button>
+                              <button class="reel__btn" id="reelNext" aria-label="Siguiente experiencia">›</button>
+                            </div>
+                          </section>
+
+                          <!-- Timeline -->
+                          <section class="seccion seccion--suave" id="retiro">
+                            <div class="contenedor">
+                              <h2 class="centrado">El retiro, minuto a minuto</h2>
+                              <p class="subtitulo centrado">Seis horas diseñadas para que vuelvas a ti. Sin prisa, sin ruido, sin pantallas.</p>
+                              <div class="contador-cupos">
+                                <span class="contador-cupos__numero" data-cupos="12">0</span>
+                                <span class="contador-cupos__texto">cupos por edición</span>
+                                <span class="contador-cupos__aviso">Reserva el tuyo antes de que se agoten</span>
+                              </div>
+                              <div class="timeline">
+                                <div class="timeline__item">
+                                  <h3>Purificación y baños de vapor</h3>
+                                  <p>Humo de hierbas locales y vapor para soltar lo que ya no necesitas cargar.</p>
+                                </div>
+                                <div class="timeline__item">
+                                  <h3>Cuencos tibetanos y meditación caminando</h3>
+                                  <p>El sonido como ancla. El paso como mantra. La naturaleza como maestra.</p>
+                                </div>
+                                <div class="timeline__item">
+                                  <h3>Ritual del árbol de la vida</h3>
+                                  <p>Escritura íntima para nombrar lo que quieres cultivar de aquí en adelante.</p>
+                                </div>
+                                <div class="timeline__item">
+                                  <h3>Círculo de fuego</h3>
+                                  <p>Compartir sin juicio, escuchar sin prisa. El fuego como testigo.</p>
+                                </div>
+                                <div class="timeline__item">
+                                  <h3>Almuerzo y refrigerio consciente</h3>
+                                  <p>Sabores locales preparados con intención. Comer también es un acto de presencia.</p>
+                                </div>
+                                <div class="timeline__item">
+                                  <h3>Jornada sonora y cierre mindfulness</h3>
+                                  <p>Integración final para volver al mundo con calma profunda y claridad.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+
+                          <!-- Medico -->
+                          <section class="seccion" id="medico">
+                            <div class="contenedor">
+                              <div class="medico">
+                                <h2>Tu recuperación, acompañada</h2>
+                                <p>Bienestar y apoyo emocional para viajeros internacionales que se someten a procedimientos médicos en Cali, Colombia. Coordinamos, acompañamos, cuidamos.</p>
+                                <div class="medico__pasos">
+                                  <div class="medico__paso">
+                                    <span>01</span>
+                                    <h3>Valoración</h3>
+                                    <p>Escuchamos tus necesidades y diseñamos un plan de apoyo personalizado.</p>
+                                  </div>
+                                  <div class="medico__paso">
+                                    <span>02</span>
+                                    <h3>Planificación</h3>
+                                    <p>Transporte, casa de recuperación y logística coordinados de principio a fin.</p>
+                                  </div>
+                                  <div class="medico__paso">
+                                    <span>03</span>
+                                    <h3>Estancia</h3>
+                                    <p>Apoyo emocional y energético durante tu recuperación en Cali.</p>
+                                  </div>
+                                  <div class="medico__paso">
+                                    <span>04</span>
+                                    <h3>Seguimiento</h3>
+                                    <p>Acompañamiento virtual tras tu regreso a casa.</p>
+                                  </div>
+                                </div>
+                                <div class="medico__aviso">
+                                  <strong>Aviso importante:</strong> nuestros servicios son complementarios de bienestar y acompañamiento. No sustituyen atención médica, diagnóstico ni tratamiento. Consulta siempre a tu médico tratante.
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+
+                          <!-- Nosotros -->
+                          <section class="seccion seccion--suave" id="nosotros">
+                            <div class="contenedor">
+                              <h2 class="centrado">Sobre nosotros</h2>
+                              <p class="subtitulo centrado">Creamos experiencias de turismo de bienestar y propósito. Integramos sabiduría ancestral, naturaleza, espiritualidad y cultura local.</p>
+                              <div class="sobre-grid">
+                                <div class="sobre-bloque">
+                                  <div class="sobre-bloque__icono" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 15h10v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-4" /><path d="M12 9a6 6 0 0 0 -6 -6h-3v2a6 6 0 0 0 6 6h3" /><path d="M12 11a6 6 0 0 1 6 -6h3v1a6 6 0 0 1 -6 6h-3" /><path d="M12 15l0 -6" /></svg></div>
+                                  <h3>Nuestra misión</h3>
+                                  <p>Acompañar a personas y viajeros en procesos de bienestar, reconexión y recuperación, ofreciendo experiencias auténticas en el corazón del Pacífico colombiano.</p>
+                                </div>
+                                <div class="sobre-bloque">
+                                  <div class="sobre-bloque__icono" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /><path d="M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25" /><path d="M12.5 15.5l2 2" /><path d="M15 13l2 2" /></svg></div>
+                                  <h3>Nuestros valores</h3>
+                                  <p>Respeto por la naturaleza, las comunidades locales y las personas. Trabajamos con transparencia, calidez y compromiso con el bienestar de cada visitante.</p>
+                                </div>
+                                <div class="sobre-bloque">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M3.6 9h16.8" /><path d="M3.6 15h16.8" /><path d="M11.5 3a17 17 0 0 0 0 18" /><path d="M12.5 3a17 17 0 0 1 0 18" /></svg>
+                                  <h3>Nuestro compromiso</h3>
+                                  <p>Turismo regenerativo, apoyo a proveedores locales y rechazo absoluto a la explotación sexual de menores y al turismo sexual (Ley 679 de 2001).</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo 2: Diseño -->
+        <div class="module-accordion">
+            <div class="module-header">
+                <div class="img-placeholder"></div>
+                <div class="header-text">
+                    <h3>Módulo de Diseño</h3>
+                    <p>La armonía visual aplicada a la creación de espacios y experiencias modernas.</p>
+                </div>
+                <span class="module-btn">Ver Detalles</span>
+            </div>
+            <div class="module-content">
+                <div class="content-inner">
+                    <h2>Módulo de Diseño</h2>
+                    <p>La elegancia es la única belleza que nunca desaparece. En esta sección exploramos la intersección entre el arte moderno y la funcionalidad.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo 3: Espiritualidad -->
+        <div class="module-accordion">
+            <div class="module-header">
+                <div class="img-placeholder"></div>
+                <div class="header-text">
+                    <h3>Espiritualidad</h3>
+                    <p>Un camino hacia el interior para encontrar la paz y el propósito en el presente.</p>
+                </div>
+                <span class="module-btn">Iniciar Viaje</span>
+            </div>
+            <div class="module-content">
+                <div class="content-inner">
+                    <h2>Espiritualidad</h2>
+                    <p>El viaje más largo es el que nos lleva hacia nosotros mismos. Aquí encontrarás herramientas y reflexiones para tu crecimiento personal.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo 4: Servicios Premium -->
+        <div class="module-accordion">
+            <div class="module-header">
+                <div class="img-placeholder"></div>
+                <div class="header-text">
+                    <h3>Servicios Premium</h3>
+                    <p>Soluciones exclusivas diseñadas para quienes buscan la excelencia en cada detalle.</p>
+                </div>
+                <span class="module-btn">Saber Más</span>
+            </div>
+            <div class="module-content">
+                <div class="content-inner">
+                    <h2>Servicios Premium</h2>
+                    <p>Atención personalizada y exclusividad. Diseñamos experiencias a medida para quienes no aceptan menos que la perfección.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Almas Libre Yo Soy. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Accordion Logic
+        document.querySelectorAll('.module-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const accordion = header.parentElement;
+                const isActive = accordion.classList.contains('active');
+                
+                // Close all others
+                document.querySelectorAll('.module-accordion').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                if (!isActive) {
+                    accordion.classList.add('active'); if(typeof initTurismoAll === 'function') initTurismoAll(); if(typeof initTurismoCounter === 'function') initTurismoCounter();
+                    // Force visibility of animated elements inside the opened module
+                    // Trigger all types of animations
+                    const anims = accordion.querySelectorAll('.animar, .animar-puertas, .hero, .hero__titulo, .hero__subtitulo, .hero__eyebrow, .hero__acciones, .hero__logo');
+                    anims.forEach(el => {
+                        el.classList.add('visible');
+                        if (el.classList.contains('hero')) el.classList.add('cargado');
+                    });
+                }
+            });
+        });
+
+        // Background Cascade Logic
+        const bg = document.getElementById('bgCascade');
+        const symbols = [
+            `<svg width="60" height="40" viewBox="0 0 60 40" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M15 20C15 10 25 10 30 20C35 30 45 30 45 20C45 10 35 10 30 20C25 30 15 30 15 20Z"/></svg>`, // Infinity
+            `<svg width="40" height="60" viewBox="0 0 40 60" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M20 10C10 10 10 25 20 25C30 25 30 40 20 40C10 40 10 50 20 50C30 50 30 40 20 40Z"/></svg>` // Professional 8
+        ];
+
+        function createSymbol() {
+            const item = document.createElement('div');
+            item.className = 'cascade-item';
+            
+            const symbol = symbols[Math.floor(Math.random() * symbols.length)];
+            item.innerHTML = symbol;
+            
+            const size = Math.random() * 150 + 100;
+            item.style.width = size + 'px';
+            item.style.height = 'auto';
+            item.style.fontSize = size + 'px';
+            
+            item.style.left = Math.random() * 100 + 'vw';
+            item.style.animationDuration = (Math.random() * 10 + 15) + 's';
+            item.style.animationDelay = (Math.random() * 10) + 's';
+            item.style.opacity = (Math.random() * 0.2 + 0.2);
+            item.style.filter = `blur(${Math.random() * 2 + 2}px)`;
+            
+            bg.appendChild(item);
+            
+            setTimeout(() => item.remove(), 25000);
+        }
+
+        for(let i=0; i<30; i++) createSymbol();
+        setInterval(createSymbol, 1000);
+    </script>
+
+    <!-- Integración Premium Turismo es Vida -->
+    <script>
+(function(){
+  'use strict';
+
+   /* ============================================================\n     HERO ANIMADO AL CARGAR\n     ============================================================ */\n\n  const hero = document.querySelector('.turismo-scope .hero');\n  if (hero) {\n    hero.classList.add('animar-hero');\n    requestAnimationFrame(() => {\n      requestAnimationFrame(() => {\n        hero.classList.add('cargado');\n      });\n    });\n  }\n\n  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n  const esMovil = window.matchMedia('(max-width: 900px)').matches;\n\n  /* ============================================================\n     1. REEL 3D DE EXPERIENCIAS\n     ============================================================ */\n  const experiencias = [\n  { titulo: \"Retiro Vuelve a ti\", tag: \"Holístico\",    img: \"C:/Users/arnaldoeuropa/Desktop/turismo-es-vida-web/assets/img/retiro.webp\",       alt: \"Retiro holístico en reserva natural\" },\n  { titulo: \"City Tour Sabores\",  tag: \"Cultura\",      img: \"C:/Users/arnaldoeuropa/Desktop/turismo-es-vida-web/assets/img/sabores.webp\",      alt: \"Tour gastronómico por Cali\" },\n  { titulo: \"Laguna de Sonso\",    tag: \"Naturaleza\",   img: \"C:/Users/arnaldoeuropa/Desktop/turismo-es-vida-web/assets/img/laguna.webp\",       alt: \"Kayak y avistamiento en la Laguna de Sonso\" },\n  { titulo: \"Tour de Salsa\",      tag: \"Música\",       img: \"C:/Users/arnaldoeuropa/Desktop/turismo-es-vida-web/assets/img/salsa.webp\",        alt: \"Clase de salsa caleña\" },\n  { titulo: \"Bosque de Niebla\",   tag: \"Naturaleza\",   img: \"C:/Users/arnaldoeuropa/Desktop/turismo-es-vida-web/assets/img/bosque.webp\",       alt: \"Caminata en el Bosque de Niebla Km 18\" },\n  { titulo: \"Celebraciones\",      tag: \"Especiales\",   img: \"C:/Users/arnaldoeuropa/Desktop/turismo-es-vida-web/assets/img/celebraciones.webp\",alt: \"Celebración personalizada\" }\n];\n\n  const carrusel = document.querySelector('.turismo-scope #reelCarrusel');\n  if (carrusel) {\n    const total = experiencias.length;\n    const radio = 320;\n    let indice = 0;\n\n    experiencias.forEach((exp, i) => {\n      const card = document.createElement('article');\n      card.className = 'reel__tarjeta';\n      card.innerHTML =\n        '<img src=\"' + exp.img + '\" alt=\"' + exp.alt + '\" loading=\"lazy\" width=\"280\" height=\"380\">' +\n        '<div class=\"reel__tarjeta__texto\">' +\n          '<span>' + exp.tag + '</span>' +\n          '<h3>' + exp.titulo + '</h3>' +\n        '</div>';\n      card.addEventListener('click', () => { indice = i; rotar(); });\n      carrusel.appendChild(card);\n    });\n\n    function rotar(){\n      const tarjetas = carrusel.querySelectorAll('.reel__tarjeta');\n      const angulo = 360 / total;\n      tarjetas.forEach((card, i) => {\n        const offset = (i - indice + total) % total;\n        const a = offset * angulo;\n        const rad = (a * Math.PI) / 180;\n        const x = Math.sin(rad) * radio;\n        const z = Math.cos(rad) * radio - radio;\n        card.style.transform = 'translateX(' + x + 'px) translateZ(' + z + 'px) rotateY(' + (-a) + 'deg)';\n        card.classList.toggle('activa', offset === 0);\n        card.style.zIndex = total - offset;\n      });\n    }\n    rotar();\n\n    const btnNext = document.querySelector('.turismo-scope #reelNext');\n    const btnPrev = document.querySelector('.turismo-scope #reelPrev');\n    if (btnNext) btnNext.addEventListener('click', () => { indice = (indice + 1) % total; rotar(); });\n    if (btnPrev) btnPrev.addEventListener('click', () => { indice = (indice - 1 + total) % total; rotar(); });\n\n    /* Navegación con teclado */\n    carrusel.addEventListener('keydown', (e) => {\n      if (e.key === 'ArrowRight') { indice = (indice + 1) % total; rotar(); }\n      if (e.key === 'ArrowLeft')  { indice = (indice - 1 + total) % total; rotar(); }\n    });\n  }\n\n  /* ============================================================\n     2. PARALLAX DEL HERO (solo si no hay reduced-motion)\n     ============================================================ */\n  if (!reduce && !esMovil) {\n    const capas = document.querySelectorAll('.turismo-scope .hero__capa');\n    const contenido = document.querySelector('.turismo-scope .hero__contenido');\n    let ticking = false;\n\n    function onScroll(){\n      if (ticking) return;\n      ticking = true;\n      requestAnimationFrame(() => {\n        const y = window.scrollY;\n        if (y <= window.innerHeight) {\n          capas.forEach((capa, i) => {\n            const factor = (i + 1) * 0.04;\n            capa.style.transform += ' translateY(' + (y * factor) + 'px)';\n          });\n          if (contenido) {\n            contenido.style.transform = 'translateY(' + (y * 0.25) + 'px) translateZ(60px)';\n            contenido.style.opacity = 1 - y / (window.innerHeight * 0.9);\n          }\n        }\n        ticking = false;\n      });\n    }\n\n    window.addEventListener('scroll', onScroll, { passive: true });\n  }\n\n   /* ============================================================\n     MENÚ MÓVIL\n     ============================================================ */\n\n  const burger = document.querySelector('.turismo-scope .header__burger');\n  const nav = document.querySelector('.turismo-scope .header__nav');\n\n  if (burger && nav) {\n    // Crear el overlay si no existe\n    let overlay = document.querySelector('.turismo-scope .menu-overlay');\n    if (!overlay) {\n      overlay = document.createElement('div');\n      overlay.className = 'menu-overlay';\n      document.body.appendChild(overlay);\n    }\n\n    function abrirMenu() {\n  // Calcular el ancho de la barra de scroll\n  const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;\n  document.documentElement.style.setProperty('--scrollbar-width', scrollbarWidth + 'px');\n\n  // ...resto del código\n\n      nav.classList.add('abierto');\n      burger.classList.add('abierto');\n      burger.setAttribute('aria-expanded', 'true');\n      overlay.classList.add('visible');\n      document.body.classList.add('menu-abierto');\n    }\n\n    function cerrarMenu() {\n  document.documentElement.style.removeProperty('--scrollbar-width');\n  // ...resto del código\n      nav.classList.remove('abierto');\n      burger.classList.remove('abierto');\n      burger.setAttribute('aria-expanded', 'false');\n      overlay.classList.remove('visible');\n      document.body.classList.remove('menu-abierto');\n    }\n\n    burger.addEventListener('click', () => {\n      if (nav.classList.contains('abierto')) {\n        cerrarMenu();\n      } else {\n        abrirMenu();\n      }\n    });\n\n    overlay.addEventListener('click', cerrarMenu);\n\n    nav.querySelectorAll('a').forEach(link => {\n      link.addEventListener('click', () => {\n        if (window.innerWidth <= 900) cerrarMenu();\n      });\n    });\n\n    document.addEventListener('keydown', (e) => {\n      if (e.key === 'Escape' && nav.classList.contains('abierto')) {\n        cerrarMenu();\n      }\n    });\n\n    window.addEventListener('resize', () => {\n      if (window.innerWidth > 900 && nav.classList.contains('abierto')) {\n        cerrarMenu();\n      }\n    });\n  }\n  /* ============================================================\n     4. ANIMACIONES AL SCROLL (IntersectionObserver)\n     ============================================================ */\n\n  // Elementos que queremos animar\n const elementosAnimar = [\n  '.reel__titulo',\n  '.reel__sub',\n  '.timeline__item',\n  '.medico__paso',\n  '.seccion h2',\n  '.subtitulo'\n];\n\n  // Añadir la clase .animar a todos los elementos\n  elementosAnimar.forEach(selector => {\n    document.querySelectorAll(selector).forEach((el, i) => {\n      el.classList.add('animar');\n      // Delay escalonado: los primeros 4 elementos de cada grupo tienen delay\n      if (i < 4) el.classList.add('animar--delay-' + (i + 1));\n    });\n  });\n\n  // IntersectionObserver\n  if ('IntersectionObserver' in window) {\n    const observer = new IntersectionObserver((entries) => {\n      entries.forEach(entry => {\n        if (entry.isIntersecting) {\n          entry.target.classList.add('visible');\n          // Dejar de observar una vez animado\n          observer.unobserve(entry.target);\n        }\n      });\n    }, {\n      threshold: 0.15,\n      rootMargin: '0px 0px -50px 0px'\n    });\n\n    document.querySelectorAll('.turismo-scope .animar').forEach(el => observer.observe(el));\n  } else {\n    // Fallback: si no hay soporte, mostrar todo\n    document.querySelectorAll('.turismo-scope .animar').forEach(el => el.classList.add('visible'));\n  }\n\n  /* ============================================================\n     5. BOTÓN VOLVER ARRIBA\n     ============================================================ */\n\n  const btnVolverArriba = document.createElement('button');\n  btnVolverArriba.className = 'volver-arriba';\n  btnVolverArriba.setAttribute('aria-label', 'Volver arriba');\n  btnVolverArriba.innerHTML =\n    '<svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\">' +\n      '<path d=\"M12 19V5M5 12l7-7 7 7\" fill=\"none\" stroke=\"currentColor\" ' +\n      'stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>' +\n    '</svg>';\n  document.body.appendChild(btnVolverArriba);\n\n  // Mostrar/ocultar según el scroll\n  let ticking = false;\n  window.addEventListener('scroll', () => {\n    if (ticking) return;\n    ticking = true;\n    requestAnimationFrame(() => {\n      if (window.scrollY > 600) {\n        btnVolverArriba.classList.add('visible');\n      } else {\n        btnVolverArriba.classList.remove('visible');\n      }\n      ticking = false;\n    });\n  }, { passive: true });\n\n  // Click: scroll suave al inicio\n  btnVolverArriba.addEventListener('click', () => {\n    window.scrollTo({ top: 0, behavior: 'smooth' });\n  });\n    /* ============================================================\n     6. ANIMACIÓN DE LAS TRES PUERTAS (convergencia)\n     ============================================================ */\n\n  const puertas = document.querySelector('.turismo-scope .puertas.animar-puertas');\n  if (puertas && 'IntersectionObserver' in window) {\n    const observerPuertas = new IntersectionObserver((entries) => {\n      entries.forEach(entry => {\n        if (entry.isIntersecting) {\n          entry.target.classList.add('visible');\n          observerPuertas.unobserve(entry.target);\n        }\n      });\n    }, {\n      threshold: 0.25,\n      rootMargin: '0px 0px -80px 0px'\n    });\n    observerPuertas.observe(puertas);\n  } else if (puertas) {\n    puertas.classList.add('visible');\n  }\n    /* ============================================================\n     8. CONTADOR DE CUPOS ANIMADO\n     ============================================================ */\n\n  const contador = document.querySelector('.turismo-scope .contador-cupos__numero');\n  if (contador && 'IntersectionObserver' in window) {\n    const objetivo = parseInt(contador.dataset.cupos, 10) || 12;\n    let yaAnimado = false;\n\n    const observerContador = new IntersectionObserver((entries) => {\n      entries.forEach(entry => {\n        if (entry.isIntersecting && !yaAnimado) {\n          yaAnimado = true;\n          animarContador(contador, 0, objetivo, 1500);\n          observerContador.unobserve(entry.target);\n        }\n      });\n    }, { threshold: 0.5 });\n\n    observerContador.observe(contador);\n  } else if (contador) {\n    contador.textContent = contador.dataset.cupos || '12';\n  }\n\n  function animarContador(el, desde, hasta, duracion) {\n    const inicio = performance.now();\n    function paso(ahora) {\n      const progreso = Math.min((ahora - inicio) / duracion, 1);\n      // easing suave (easeOutQuart)\n      const easing = 1 - Math.pow(1 - progreso, 4);\n      const valor = Math.round(desde + (hasta - desde) * easing);\n      el.textContent = valor;\n      if (progreso < 1) requestAnimationFrame(paso);\n    }\n    requestAnimationFrame(paso);\n  }\n})();\n
+</body>
+</html>
